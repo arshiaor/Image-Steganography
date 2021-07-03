@@ -10,6 +10,8 @@ def decode():
 
     while (True):
         pixels = [value for value in imageData.__next__()[:3] + imageData.__next__()[:3] + imageData.__next__()[:3]]
+
+        # string of binary data that will be converted to characters
         binaryString = ''
 
         for i in pixels[:8]:
