@@ -18,10 +18,8 @@
 
 ### If you have virtual environment this will be fine to just run the program but if you want to run it as a script: 
 > ### chmod +x steganography.py
-> ### ./steganography.py
-<br> 
---- 
-
+> ### ./steganography.py 
+---
 # How the algorithm works
 
 ### An image consists of pixels. and each pixel has 3 bytes of values (red , gree, and blue ) in numbers of 0-255.
