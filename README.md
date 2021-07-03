@@ -6,7 +6,7 @@
 ![alt text](https://img.shields.io/badge/-Security-yellow)
 ![alt text](https://img.shields.io/badge/-Image%20Proccessing-orange)
 ---
-## How to use 
+# How to use 
 ### To use this application you will  need python and pip package installed.
 > ### Note! This code works for PNG formats beacues of compreesion in JPEG formats we might have dataloss.
 
@@ -20,8 +20,9 @@
 > ### chmod +x steganography.py
 > ### ./steganography.py
 <br> 
----
-## How the algorithm works
+--- 
+
+# How the algorithm works
 
 ### An image consists of pixels. and each pixel has 3 bytes of values (red , gree, and blue ) in numbers of 0-255.
 
@@ -54,3 +55,7 @@
 ### 2. for the values, if they are odd the binary bit is 1, and if they are even the binary bit is 0.
 ### 3. the bits will be concatenated to Strings 
 ### 4. if the ninth value is even we keep reading three more pixels or if not we stop.
+## Sources: 
+- https://betterprogramming.pub/image-steganography-using-python-2250896e48b9 <br>
+- https://www.geeksforgeeks.org/program-decimal-binary-conversion/ <br>
+- https://www.geeksforgeeks.org/working-images-python/ <br>
